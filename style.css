@@ -4,15 +4,17 @@
   box-sizing: border-box;
   font-family: 'Lobster', cursive;
   text-decoration: none;
-  
 }
-
+.text{
+  text-align: center;
+  margin: 20px;
+}
 .flexible-banner{
   width: 100%;
   display: flex;
   overflow: hidden;
   font-size: 18px;
-}
+} 
 .left-border{
   font-size: 30px;
   font-weight: 700;
@@ -35,15 +37,22 @@
 .Image{
   width: 90%;
   height: 90%;
+  border-radius: 20px;
 }
-.left-side{
+.text-side{
   width: 50%;
   margin-left: 5%;
   margin-top: 40px;
   padding: 20px;
 }
-.right-side{
+.image-side{
   width: 50%;
   margin-left: 5%;
   margin-top: 20px;
+  position: relative;
+}
+
+#regForm{
+  background-color: darkslategray;
+  padding: 20px 25px;
 }
